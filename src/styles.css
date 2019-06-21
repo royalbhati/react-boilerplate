@@ -1,0 +1,8 @@
+@import "../node_modules/antd/dist/antd.css";
+
+.brand {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
