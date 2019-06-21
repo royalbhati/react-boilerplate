@@ -1,27 +1,28 @@
 import React, { Component } from "react";
+import { hot } from "react-hot-loader";
 import { Menu, Icon, Layout } from "antd";
+import "./styles.css";
 const { Header } = Layout;
-import "./styles.css"
 
-export default class App extends Component {
+class App extends Component {
   render() {
-    debugger;
-
     return (
       <div>
         <Header>
           <div className='brand'>
-            <span >React BoilerPlate</span>
+            <span>React Boilerplate</span>
           </div>
-          <div style={{ textAlign: "center" }}>
-            <Menu mode='horizontal'>
-              <Menu.Item key='mail'>
-                <Icon type='user' /> by @royalbhati
-              </Menu.Item>
-            </Menu>
-          </div>
+          <div style={{ textAlign: "center" }} />
         </Header>
+        <div class='container'>
+          <span class='react-logo'>
+            <span class='nucleo' />
+          </span>
+        </div>
+
+        <p class='title'>by @Royal Bhati</p>
       </div>
     );
   }
 }
+export default hot(module)(App);
