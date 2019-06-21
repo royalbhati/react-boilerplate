@@ -1,3 +1,3 @@
 # React Boilerplate
 
-[img](img.png)
+![img](img.png)
